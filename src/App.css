@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#form {
+  padding: 20px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+#form > div {
+  margin-bottom: 3px;
+}
+
+#form > div > label {
+  width: 120px;
+}
+
+button[type="submit"] {
+  background-color: blueviolet;
+}

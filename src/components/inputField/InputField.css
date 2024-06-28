@@ -1,0 +1,28 @@
+.input-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.input-div > label {
+  width: 50px;
+  padding: 0px;
+  margin: 0px;
+  align-self: first baseline;
+}
+
+.input-div > * {
+  margin-bottom: 6px;
+}
+
+.input-div input {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+.clear-input-x:hover {
+  cursor: pointer;
+}
